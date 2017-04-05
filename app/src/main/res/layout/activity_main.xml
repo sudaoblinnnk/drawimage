@@ -14,7 +14,7 @@
     tools:context="com.dodola.arcwind.MainActivity">
 
 
-    <com.dodola.arcwind.SquareMotionView
+    <com.dodola.arcwind.PictureView
         android:id="@+id/view"
         android:layout_width="300dp"
         android:layout_height="300dp"

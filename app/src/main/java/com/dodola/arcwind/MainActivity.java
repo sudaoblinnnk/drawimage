@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final SquareMotionView motionView = (SquareMotionView) findViewById(R.id.view);
+        final PictureView motionView = (PictureView) findViewById(R.id.view);
         SeekBar seekBar = (SeekBar) this.findViewById(R.id.seekBar);
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                motionView.setSweepAngle(progress);
+                //motionView.setSweepAngle(progress);
             }
 
             @Override
