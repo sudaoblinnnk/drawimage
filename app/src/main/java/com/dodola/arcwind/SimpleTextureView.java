@@ -12,6 +12,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.SurfaceTexture;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.TextureView;
 import android.view.animation.LinearInterpolator;
 
@@ -120,5 +121,6 @@ public class SimpleTextureView extends TextureView implements TextureView.Surfac
 
     @Override
     public void onSurfaceTextureUpdated(SurfaceTexture surface) {
+        Log.d(L.TAG, "onSurfaceTextureUpdated  ... ");
     }
 }
